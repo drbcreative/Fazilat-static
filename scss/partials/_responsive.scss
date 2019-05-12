@@ -1,0 +1,268 @@
+/* -------------------------------------------------------------------------- */
+/* RESPONSIVE MEDIA QUERIES */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* SMALL BREAKPOINT (Landscape Phones and Up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 576px) {
+  .ui-btn {
+    display: inline-flex;
+    width: auto;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* MEDIUM BREAKPOINT (Tablets 768px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .ui-btn {
+    display: inline-flex;
+    width: auto;
+  }
+  /* Face Section -------------------------------------------------- */
+
+  /* Footer Section ------------------------------------------------ */
+}
+
+/* -------------------------------------------------------------------------- */
+/* LARGE BREAKPOINT (Desktops 992px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 992px) {
+  .containerish {
+    width: 95%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }
+  /* Consultation Form */
+
+  /* Header Section ------------------------------------------------ */
+  header {
+    .main-navbar {
+      width: 100%;
+      .top-menu-logo {
+        // display: none;
+        max-width: 150px;
+        height: auto;
+        grid-column: 1 / 2;
+        margin-left: 0;
+        transition: all 0.3s ease-in-out;
+
+        &.active {
+          display: inline;
+          // margin-left: 6rem;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      .social-menu {
+        display: flex;
+        transition: all 0.3s ease-in-out;
+
+        .fab:nth-child(1) {
+          margin-right: 1rem;
+          display: inline-block;
+        }
+      }
+      .header-social-menu {
+        display: flex;
+        transition: all 0.3s ease-in-out;
+
+        .fab:nth-child(1) {
+          margin-right: 1rem;
+          display: inline-block;
+        }
+
+        &.active {
+          display: none;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      .nav-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        grid-column: 2 / 3;
+        grid-row: 1;
+
+        .dropmenu {
+          position: absolute;
+          background: #fff;
+          // padding: 1rem;
+          top: 40px;
+          left: 0;
+          right: 0;
+          width: 200px;
+          margin-left: 2rem !important;
+          list-style-type: none;
+
+          li {
+            a {
+              padding-left: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .menu-container {
+    position: fixed;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+
+    .menu-left {
+      grid-column: 1 / 2;
+      background: url("../img/menu-img@2x.jpg") center / cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .section-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          text-align: center;
+        }
+
+        visibility: hidden;
+      }
+    }
+    .menu-right {
+      padding: 30px 0;
+      .side-menu {
+        li {
+          a {
+            padding: 1rem 2rem;
+          }
+        }
+        .dropmenu {
+          position: absolute;
+          width: auto;
+          height: auto;
+          top: 0;
+          left: -80%;
+          right: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center !important;
+          justify-content: center !important;
+          background: $bg-color;
+          padding: 0;
+          display: block;
+          visibility: hidden;
+          opacity: 0;
+          transition: all 0.3s ease-in-out;
+
+          li {
+            display: block;
+            // width: 100%;
+            a {
+              &:hover {
+                background-color: $color-white;
+                transition: all 0.1s ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Hero Section -------------------------------------------------- */
+  /* Body Section -------------------------------------------------- */
+  /* Injectables Section ------------------------------------------- */
+
+  /* Bio Section --------------------------------------------------- */
+  /*.reviews Section ----------------------------------------------- */
+
+  /* Footer Section ------------------------------------------------ */
+  footer {
+    padding: 60px 0 10px 0;
+    .containerish {
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 2rem;
+
+      .db-input {
+        max-width: 90%;
+      }
+
+      .footer-col-1,
+      .footer-col-2,
+      .footer-col-3 {
+        margin-top: 0;
+      }
+
+      .footnote {
+        text-align: left;
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* EXTRA LARGE BREAKPOINT (Large Desktops 1200px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+  .nav-burger-container {
+    top: 30px;
+  }
+  /* Side Nav Section ---------------------------------------------- */
+  .menu-container {
+    .menu-right {
+      padding: 55px 0;
+      .side-menu {
+        li {
+          a {
+            padding: 0.7rem 2rem;
+          }
+        }
+      }
+    }
+  }
+  header {
+    top: 20px;
+    .main-navbar {
+      justify-content: center;
+      .top-menu-logo {
+        max-width: 300px;
+      }
+    }
+  }
+  /* Face Section -------------------------------------------------- */
+
+  /* Reviews Section ----------------------------------------------- */
+  /* Footer Section ------------------------------------------------ */
+  footer {
+    .containerish {
+      .db-input {
+        max-width: 80%;
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* SUPER LARGE BREAKPOINT (IMAC STATUS 1900px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 1900px) {
+  .menu-container {
+    position: fixed;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+    .menu-right {
+      padding: 45px 0;
+      .side-menu {
+        li {
+          a {
+            font-size: 1rem;
+            padding: 1rem 2rem;
+          }
+        }
+      }
+    }
+  }
+}
