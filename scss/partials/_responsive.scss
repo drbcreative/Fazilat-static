@@ -21,9 +21,19 @@
     display: inline-flex;
     width: auto;
   }
-  /* Face Section -------------------------------------------------- */
-
-  /* Footer Section ------------------------------------------------ */
+  /* HERO SECTION -------------------------------------------------- */
+  /* PLASTIC SURGERY SECTION --------------------------------------- */
+  /* BREAST SECTION ------------------------------------------------ */
+  /* BREAST AUGMENTATION SECTION ----------------------------------- */
+  /* FACE SECTION -------------------------------------------------- */
+  /* BODY SECTION -------------------------------------------------- */
+  /* GALLERY SECTION ----------------------------------------------- */
+  /* BIO SECTION --------------------------------------------------- */
+  /* ARTISTRY SECTION ---------------------------------------------- */
+  /* CONSULTATION SECTION ------------------------------------------ */
+  /* INSTAGRAM SECTION --------------------------------------------- */
+  /* LOCATIONS SECTION --------------------------------------------- */
+  /* FOOTER SECTION ------------------------------------------------ */
 }
 
 /* -------------------------------------------------------------------------- */
@@ -172,35 +182,52 @@
     }
   }
 
-  /* Hero Section -------------------------------------------------- */
-  /* Body Section -------------------------------------------------- */
-  /* Injectables Section ------------------------------------------- */
-
-  /* Bio Section --------------------------------------------------- */
-  /*.reviews Section ----------------------------------------------- */
-
-  /* Footer Section ------------------------------------------------ */
-  footer {
-    padding: 60px 0 10px 0;
+  /* HERO SECTION -------------------------------------------------- */
+  .hero {
+    position: relative;
     .containerish {
-      grid-template-columns: repeat(3, 1fr);
-      grid-column-gap: 2rem;
+      width: 100% !important;
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
 
-      .db-input {
-        max-width: 90%;
+      .left-col {
+        background: $color-main;
+        height: 400px;
+        .content-wrapper {
+          text-align: left;
+        }
       }
-
-      .footer-col-1,
-      .footer-col-2,
-      .footer-col-3 {
-        margin-top: 0;
-      }
-
-      .footnote {
-        text-align: left;
+      .right-col {
+        background: #eaeaea;
+        height: 400px;
+        .content-wrapper {
+          text-align: right;
+        }
       }
     }
+    img {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 650px;
+      width: auto;
+    }
   }
+  /* PLASTIC SURGERY SECTION --------------------------------------- */
+  /* BREAST SECTION ------------------------------------------------ */
+  /* BREAST AUGMENTATION SECTION ----------------------------------- */
+  /* FACE SECTION -------------------------------------------------- */
+  /* BODY SECTION -------------------------------------------------- */
+  /* GALLERY SECTION ----------------------------------------------- */
+  /* BIO SECTION --------------------------------------------------- */
+  /* ARTISTRY SECTION ---------------------------------------------- */
+  /* CONSULTATION SECTION ------------------------------------------ */
+  /* INSTAGRAM SECTION --------------------------------------------- */
+  /* LOCATIONS SECTION --------------------------------------------- */
+  /* FOOTER SECTION ------------------------------------------------ */
 }
 
 /* -------------------------------------------------------------------------- */
@@ -208,7 +235,7 @@
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
   .nav-burger-container {
-    top: 30px;
+    top: 40px;
   }
   /* Side Nav Section ---------------------------------------------- */
   .menu-container {
@@ -224,7 +251,7 @@
     }
   }
   header {
-    top: 20px;
+    top: 30px;
     .main-navbar {
       justify-content: center;
       .top-menu-logo {
@@ -232,17 +259,103 @@
       }
     }
   }
-  /* Face Section -------------------------------------------------- */
-
-  /* Reviews Section ----------------------------------------------- */
-  /* Footer Section ------------------------------------------------ */
-  footer {
+  /* HERO SECTION -------------------------------------------------- */
+  .hero {
+    position: relative;
     .containerish {
-      .db-input {
-        max-width: 80%;
+      .left-col,
+      .right-col {
+        height: 600px;
+      }
+      .left-col {
+        background: $color-main;
+        .content-wrapper {
+          max-width: 80%;
+          text-align: left;
+        }
+      }
+      .right-col {
+        background: #eaeaea;
+        justify-content: flex-end;
+        .content-wrapper {
+          max-width: 80%;
+          text-align: right;
+        }
       }
     }
+    img {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 650px;
+      width: auto;
+    }
   }
+  /* PLASTIC SURGERY SECTION --------------------------------------- */
+  /* BREAST SECTION ------------------------------------------------ */
+  /* BREAST AUGMENTATION SECTION ----------------------------------- */
+  /* FACE SECTION -------------------------------------------------- */
+  /* BODY SECTION -------------------------------------------------- */
+  /* GALLERY SECTION ----------------------------------------------- */
+  /* BIO SECTION --------------------------------------------------- */
+  /* ARTISTRY SECTION ---------------------------------------------- */
+  /* CONSULTATION SECTION ------------------------------------------ */
+  /* INSTAGRAM SECTION --------------------------------------------- */
+  /* LOCATIONS SECTION --------------------------------------------- */
+  /* FOOTER SECTION ------------------------------------------------ */
+}
+
+/* -------------------------------------------------------------------------- */
+/* EXTRA LARGE BREAKPOINT (Large Desktops 1400px and up) */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 1400px) {
+  /* HERO SECTION -------------------------------------------------- */
+  .hero {
+    position: relative;
+    .containerish {
+      .left-col,
+      .right-col {
+        height: 600px;
+        padding: 40px 40px;
+      }
+      .left-col {
+        background: $color-main;
+        .content-wrapper {
+          max-width: 80%;
+          text-align: left;
+        }
+      }
+      .right-col {
+        background: #eaeaea;
+        justify-content: flex-end;
+        .content-wrapper {
+          max-width: 80%;
+          text-align: right;
+        }
+      }
+    }
+    img {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 650px;
+      width: auto;
+    }
+  }
+  /* PLASTIC SURGERY SECTION --------------------------------------- */
+  /* BREAST SECTION ------------------------------------------------ */
+  /* BREAST AUGMENTATION SECTION ----------------------------------- */
+  /* FACE SECTION -------------------------------------------------- */
+  /* BODY SECTION -------------------------------------------------- */
+  /* GALLERY SECTION ----------------------------------------------- */
+  /* BIO SECTION --------------------------------------------------- */
+  /* ARTISTRY SECTION ---------------------------------------------- */
+  /* CONSULTATION SECTION ------------------------------------------ */
+  /* INSTAGRAM SECTION --------------------------------------------- */
+  /* LOCATIONS SECTION --------------------------------------------- */
+  /* FOOTER SECTION ------------------------------------------------ */
 }
 
 /* -------------------------------------------------------------------------- */
@@ -265,4 +378,17 @@
       }
     }
   }
+  /* HERO SECTION -------------------------------------------------- */
+  /* PLASTIC SURGERY SECTION --------------------------------------- */
+  /* BREAST SECTION ------------------------------------------------ */
+  /* BREAST AUGMENTATION SECTION ----------------------------------- */
+  /* FACE SECTION -------------------------------------------------- */
+  /* BODY SECTION -------------------------------------------------- */
+  /* GALLERY SECTION ----------------------------------------------- */
+  /* BIO SECTION --------------------------------------------------- */
+  /* ARTISTRY SECTION ---------------------------------------------- */
+  /* CONSULTATION SECTION ------------------------------------------ */
+  /* INSTAGRAM SECTION --------------------------------------------- */
+  /* LOCATIONS SECTION --------------------------------------------- */
+  /* FOOTER SECTION ------------------------------------------------ */
 }
