@@ -33,6 +33,27 @@
     text-decoration: none;
   }
 }
+.btn-main-main-left {
+  color: $color-main;
+  position: relative;
+
+  &::before {
+    content: "|";
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 0.5rem;
+    margin-left: 0.3rem;
+    color: $color-main;
+  }
+
+  &:hover {
+    color: lighten($color-main, 20);
+    text-decoration: none;
+  }
+}
 
 .btn-dark-dark-right {
   color: $color-dark;
@@ -70,6 +91,12 @@
     }
   }
   .btn-white-white-left {
+    &::before {
+      content: "|";
+      display: none;
+    }
+  }
+  .btn-main-main-left {
     &::before {
       content: "|";
       display: none;

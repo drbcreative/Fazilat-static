@@ -38,7 +38,7 @@
       align-items: center;
 
       p {
-        margin-bottom: 0;
+        // margin-bottom: 0;
       }
 
       h2 {
@@ -57,9 +57,57 @@
 /* -------------------------------------------------------------------------- */
 /* PLASTIC SURGERY */
 /* -------------------------------------------------------------------------- */
+.plasticsurgery {
+  background: url("../../img/plasticsurgery-bg@2x.jpg") center / cover;
+  padding: 40px 20px;
+  .containerish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .small-logo {
+      max-width: 40px;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+    h2,
+    .body-copy {
+      text-align: center;
+    }
+    .sf {
+      color: $color-main;
+      padding: 0 0.5rem 0 0.2rem;
+      font-size: 2.5rem;
+    }
+    .body-copy {
+      margin: 1rem auto 2rem auto;
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* BREAST */
 /* -------------------------------------------------------------------------- */
+.breast {
+  background: url("../../img/breast-bg@2x.jpg") center / cover;
+  height: 80vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content-wrapper {
+    background: rgba($color-dark, 0.8);
+    padding: 40px 20px;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* BREAST AUGMENTATION */
 /* -------------------------------------------------------------------------- */

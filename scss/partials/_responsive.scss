@@ -23,7 +23,28 @@
   }
   /* HERO SECTION -------------------------------------------------- */
   /* PLASTIC SURGERY SECTION --------------------------------------- */
+  .plasticsurgery {
+    padding: 60px 20px;
+  }
   /* BREAST SECTION ------------------------------------------------ */
+  .breast {
+    height: 80vh;
+
+    .content-wrapper {
+      background: rgba($color-dark, 0.8);
+      padding: 40px 20px;
+      max-width: 80%;
+      margin-top: 6rem;
+
+      h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      p {
+        margin-bottom: 2rem;
+      }
+    }
+  }
   /* BREAST AUGMENTATION SECTION ----------------------------------- */
   /* FACE SECTION -------------------------------------------------- */
   /* BODY SECTION -------------------------------------------------- */
@@ -218,6 +239,28 @@
   }
   /* PLASTIC SURGERY SECTION --------------------------------------- */
   /* BREAST SECTION ------------------------------------------------ */
+  .breast {
+    height: 80vh;
+
+    .containerish {
+      max-width: 100% !important;
+      width: 100% !important;
+      .content-wrapper {
+        background: rgba($color-dark, 0.8);
+        padding: 60px 4rem;
+        max-width: 80%;
+        margin-top: 8rem;
+
+        h2 {
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+        p {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
   /* BREAST AUGMENTATION SECTION ----------------------------------- */
   /* FACE SECTION -------------------------------------------------- */
   /* BODY SECTION -------------------------------------------------- */
@@ -293,7 +336,36 @@
     }
   }
   /* PLASTIC SURGERY SECTION --------------------------------------- */
+  .plasticsurgery {
+    padding: 80px 20px;
+
+    .breast-img {
+      max-width: 800px;
+    }
+  }
   /* BREAST SECTION ------------------------------------------------ */
+  .breast {
+    height: 90vh;
+
+    .containerish {
+      max-width: 100% !important;
+      width: 100% !important;
+      .content-wrapper {
+        background: rgba($color-dark, 0.8);
+        padding: 60px 6rem;
+        max-width: 65%;
+        margin-top: 8rem;
+
+        h2 {
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+        p {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
   /* BREAST AUGMENTATION SECTION ----------------------------------- */
   /* FACE SECTION -------------------------------------------------- */
   /* BODY SECTION -------------------------------------------------- */
@@ -379,8 +451,74 @@
     }
   }
   /* HERO SECTION -------------------------------------------------- */
+  .hero {
+    position: relative;
+    .containerish {
+      .left-col,
+      .right-col {
+        display: flex;
+        justify-content: center;
+
+        .content-wrapper {
+          max-width: 60%;
+        }
+      }
+
+      .left-col {
+        background: $color-main;
+        height: 800px;
+        .content-wrapper {
+          text-align: left;
+        }
+      }
+      .right-col {
+        background: #eaeaea;
+        height: 800px;
+        .content-wrapper {
+          text-align: right;
+        }
+      }
+    }
+    img {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 870px;
+      width: auto;
+    }
+  }
   /* PLASTIC SURGERY SECTION --------------------------------------- */
+  .plasticsurgery {
+    padding: 100px 20px 125px 20px;
+
+    .breast-img {
+      max-width: 1000px;
+    }
+  }
   /* BREAST SECTION ------------------------------------------------ */
+  .breast {
+    height: 1700px;
+
+    .containerish {
+      max-width: 70% !important;
+      width: 70% !important;
+      .content-wrapper {
+        background: rgba($color-dark, 0.8);
+        padding: 80px 10rem;
+        max-width: 65%;
+        margin: 22rem auto 0 auto;
+
+        h2 {
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+        p {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
   /* BREAST AUGMENTATION SECTION ----------------------------------- */
   /* FACE SECTION -------------------------------------------------- */
   /* BODY SECTION -------------------------------------------------- */
