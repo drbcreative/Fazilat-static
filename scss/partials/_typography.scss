@@ -2,10 +2,11 @@
 /* Typography */
 /* -------------------------------------------------------------------------- */
 @import "https://use.fontawesome.com/releases/v5.4.1/css/all.css";
-@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900|Noto+Serif:400,400i");
 
 $font-primary: "Lato", sans-serif;
 $font-secondary: "Lato", sans-serif;
+$font-tertiary: "Noto Serif", serif;
 
 // General Font Setup
 // Headers
@@ -75,7 +76,20 @@ h6 {
   line-height: 2.0625rem;
   font-weight: 300;
 }
-
+.testimonial-blurb {
+  font-family: $font-tertiary;
+  font-size: 46px;
+  line-height: 76px;
+  color: $color-dark;
+  margin-bottom: 2rem;
+}
+.testimonial-credit {
+  font-family: $font-tertiary;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: $color-dark;
+}
 /* Text Modifiers */
 .wrap-75 {
   width: 100%;
@@ -109,5 +123,12 @@ input {
   h2,
   h3 {
     line-height: 2rem;
+  }
+  .testimonial-blurb {
+    font-family: $font-tertiary;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 36px;
+    color: $color-dark;
   }
 }

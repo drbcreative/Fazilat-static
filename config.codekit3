@@ -247,6 +247,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/chevron.png": {
+		"ft": 32768,
+		"iS": 336,
+		"oA": 0,
+		"oAP": "/img/chevron.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/chevron@2x.png": {
+		"ft": 32768,
+		"iS": 566,
+		"oA": 0,
+		"oAP": "/img/chevron@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/dr-bio-bg.png": {
 		"ft": 32768,
 		"iS": 9571,
@@ -530,6 +552,28 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/wedge.png": {
+		"ft": 32768,
+		"iS": 3931,
+		"oA": 0,
+		"oAP": "/img/wedge.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/wedge@2x.png": {
+		"ft": 32768,
+		"iS": 10962,
+		"oA": 0,
+		"oAP": "/img/wedge@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

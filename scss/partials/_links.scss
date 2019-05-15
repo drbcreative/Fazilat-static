@@ -32,21 +32,22 @@
 }
 .section-link {
   font-family: $font-secondary;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   color: $color-dark;
-  transition: all 0.3s ease-in-out;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
 
   &::after {
-    // content: url("../img/link-chevron.png");
-    content: ">";
+    content: url("../img/chevron.png");
+    // content: ">";
     padding-left: 10px;
   }
 
   &:hover {
     color: $color-main;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 }
 .footer-link {
