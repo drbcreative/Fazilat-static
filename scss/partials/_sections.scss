@@ -163,6 +163,7 @@
 /* FACE */
 /* -------------------------------------------------------------------------- */
 .face {
+  height: auto;
   padding: 40px 0;
   .containerish {
     display: grid;
@@ -179,15 +180,9 @@
     }
     .right-col {
       position: relative;
-      height: auto;
+      height: 250px;
 
       .top-angle {
-        // position: absolute;
-        // z-index: 1;
-        // top: 0;
-        // right: 0;
-        // width: 45%;
-        // max-width: 287px;
         display: none;
       }
       .links-container {
@@ -206,6 +201,29 @@
 /* -------------------------------------------------------------------------- */
 /* BODY */
 /* -------------------------------------------------------------------------- */
+.body {
+  background: url("../../img/body-bg@2x.jpg") center / cover;
+
+  .containerish {
+    min-height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    .links-container {
+      margin-left: 2rem;
+      margin-bottom: 2rem;
+      a {
+        color: $color-white;
+        display: block;
+
+        &:hover {
+          color: $color-main;
+        }
+      }
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* GALLERY */
 /* -------------------------------------------------------------------------- */
