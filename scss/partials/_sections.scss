@@ -58,7 +58,7 @@
 /* PLASTIC SURGERY */
 /* -------------------------------------------------------------------------- */
 .plasticsurgery {
-  background: url("../../img/plasticsurgery-bg@2x.jpg") center / cover;
+  background: url("../img/plasticsurgery-bg@2x.jpg") center / cover;
   padding: 40px 20px;
   .containerish {
     display: flex;
@@ -88,7 +88,7 @@
 /* BREAST */
 /* -------------------------------------------------------------------------- */
 .breast {
-  background: url("../../img/breast-bg@2x.jpg") center / cover;
+  background: url("../img/breast-bg@2x.jpg") center / cover;
   height: 80vh;
 
   display: flex;
@@ -112,7 +112,7 @@
 /* BREAST AUGMENTATION */
 /* -------------------------------------------------------------------------- */
 .breastaugmentation {
-  background: url("../../img/breast-augmentation-bg@2x.jpg") center / cover;
+  background: url("../img/breast-augmentation-bg@2x.jpg") center / cover;
   min-height: 400px;
   .upper-section {
     .containerish {
@@ -162,6 +162,47 @@
 /* -------------------------------------------------------------------------- */
 /* FACE */
 /* -------------------------------------------------------------------------- */
+.face {
+  padding: 40px 0;
+  .containerish {
+    display: grid;
+
+    .face-content {
+      background: $color-dark;
+      padding: 40px 20px;
+    }
+    .face-small {
+      display: none;
+    }
+    .face-smudge {
+      display: none;
+    }
+    .right-col {
+      position: relative;
+      height: auto;
+
+      .top-angle {
+        // position: absolute;
+        // z-index: 1;
+        // top: 0;
+        // right: 0;
+        // width: 45%;
+        // max-width: 287px;
+        display: none;
+      }
+      .links-container {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        z-index: 2;
+
+        a {
+          display: block;
+        }
+      }
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* BODY */
 /* -------------------------------------------------------------------------- */
