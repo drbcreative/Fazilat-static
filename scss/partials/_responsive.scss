@@ -154,6 +154,43 @@
       }
     }
   }
+  .body-2 {
+    background: url("../../img/body-2-bg@2x.jpg") center / cover;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+    height: 400px;
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1rem;
+
+      .body-img {
+        margin-bottom: 0;
+        margin-top: -1rem;
+        margin-left: -2rem;
+      }
+
+      //white box
+      .body-content {
+        background: #fff;
+        padding: 2rem;
+        margin-top: -4rem;
+
+        h2 {
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .btn-main-main-left {
+          color: $color-dark;
+
+          &:hover {
+            color: $color-main;
+          }
+        }
+      }
+    }
+  }
   /* GALLERY SECTION ----------------------------------------------- */
   /* BIO SECTION --------------------------------------------------- */
   /* ARTISTRY SECTION ---------------------------------------------- */
@@ -522,6 +559,45 @@
       }
     }
   }
+  .body-2 {
+    background: url("../../img/body-2-bg@2x.jpg") center / cover;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+    height: 500px;
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1rem;
+
+      .body-img {
+        margin-bottom: 0;
+        margin-top: -2rem;
+        margin-left: -2rem;
+      }
+
+      //white box
+      .body-content {
+        background: #fff;
+        padding: 4rem 3rem;
+        max-width: 472px;
+        margin-top: -8rem;
+        justify-self: center;
+
+        h2 {
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .btn-main-main-left {
+          color: $color-dark;
+
+          &:hover {
+            color: $color-main;
+          }
+        }
+      }
+    }
+  }
   /* GALLERY SECTION ----------------------------------------------- */
   /* BIO SECTION --------------------------------------------------- */
   /* ARTISTRY SECTION ---------------------------------------------- */
@@ -748,6 +824,46 @@
       .links-container {
         margin-left: 2rem;
         margin-bottom: 6rem;
+      }
+    }
+  }
+  .body-2 {
+    background: url("../../img/body-2-bg@2x.jpg") center / cover;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+    height: 500px;
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1rem;
+
+      .body-img {
+        margin-bottom: 0;
+        margin-top: -2rem;
+        margin-left: -2rem;
+      }
+
+      //white box
+      .body-content {
+        height: 665px;
+        background: #fff;
+        padding: 4rem 3rem;
+        max-width: 472px;
+        margin-top: -14rem;
+        justify-self: center;
+
+        h2 {
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .btn-main-main-left {
+          color: $color-dark;
+
+          &:hover {
+            color: $color-main;
+          }
+        }
       }
     }
   }

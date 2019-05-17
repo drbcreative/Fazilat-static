@@ -115,6 +115,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/body-2-bg.jpg": {
+		"ft": 16384,
+		"iS": 18033,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/body-2-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/body-2-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 75612,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/body-2-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/body-bg-smudge.jpg": {
 		"ft": 16384,
 		"iS": 19088,
@@ -176,8 +198,8 @@
 		"oA": 0,
 		"oAP": "/img/body-img@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

@@ -202,7 +202,7 @@
 /* BODY */
 /* -------------------------------------------------------------------------- */
 .body {
-  background: url("../../img/body-bg@2x.jpg") center / cover;
+  background: url("../img/body-bg@2x.jpg") center / cover;
 
   .containerish {
     min-height: 400px;
@@ -216,6 +216,40 @@
       a {
         color: $color-white;
         display: block;
+
+        &:hover {
+          color: $color-main;
+        }
+      }
+    }
+  }
+}
+.body-2 {
+  background: url("../../img/body-2-bg@2x.jpg") right / cover;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  .containerish {
+    display: grid;
+
+    .body-img {
+      margin-bottom: 2rem;
+    }
+
+    //white box
+    .body-content {
+      background: #fff;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      h2 {
+        margin-bottom: 2rem;
+      }
+
+      .btn-main-main-left {
+        color: $color-dark;
 
         &:hover {
           color: $color-main;
