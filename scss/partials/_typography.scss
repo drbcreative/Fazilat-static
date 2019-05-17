@@ -68,6 +68,13 @@ h6 {
     font-style: italic;
   }
 }
+.small-copy {
+  color: #7c7c7c;
+  font-size: 16px;
+  line-height: calc(16px * 2);
+  font-family: $font-primary;
+  font-weight: 300;
+}
 
 /* Lead Text (hero) */
 .lead-copy {

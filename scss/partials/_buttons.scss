@@ -76,6 +76,27 @@
     text-decoration: none;
   }
 }
+.btn-dark-dark-left {
+  color: $color-dark;
+  position: relative;
+
+  &::before {
+    content: "|";
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 0.3rem;
+    margin-right: 0.5rem;
+    color: $color-dark;
+  }
+
+  &:hover {
+    color: lighten($color-main, 0);
+    text-decoration: none;
+  }
+}
 
 .ui-btn-group {
   .ui-btn:not(:last-child) {
@@ -86,6 +107,12 @@
 @media screen and (max-width: 414px) {
   .btn-dark-dark-right {
     &::after {
+      content: "|";
+      display: none;
+    }
+  }
+  .btn-dark-dark-left {
+    &::before {
       content: "|";
       display: none;
     }

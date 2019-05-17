@@ -110,8 +110,8 @@
 		"oA": 0,
 		"oAP": "/img/artistry-img@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -203,6 +203,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/botox-logo.png": {
+		"ft": 32768,
+		"iS": 4719,
+		"oA": 0,
+		"oAP": "/img/botox-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/botox-logo@2x.png": {
+		"ft": 32768,
+		"iS": 13540,
+		"oA": 0,
+		"oAP": "/img/botox-logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/breast-augmentation-bg.jpg": {
 		"ft": 16384,
 		"iS": 56343,
@@ -291,6 +313,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/dr-bio-bg.jpg": {
+		"ft": 16384,
+		"iS": 41215,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/dr-bio-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/dr-bio-bg.png": {
 		"ft": 32768,
 		"iS": 9571,
@@ -300,6 +333,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/img/dr-bio-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 194245,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/dr-bio-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/dr-bio-bg@2x.png": {
@@ -333,6 +377,50 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/dr-llc-angle.png": {
+		"ft": 32768,
+		"iS": 3045,
+		"oA": 0,
+		"oAP": "/img/dr-llc-angle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/dr-llc-angle@2x.png": {
+		"ft": 32768,
+		"iS": 8325,
+		"oA": 0,
+		"oAP": "/img/dr-llc-angle@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/dysport-logo.png": {
+		"ft": 32768,
+		"iS": 5971,
+		"oA": 0,
+		"oAP": "/img/dysport-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/dysport-logo@2x.png": {
+		"ft": 32768,
+		"iS": 15971,
+		"oA": 0,
+		"oAP": "/img/dysport-logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/face-large.png": {
@@ -489,6 +577,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/insta-feed.jpg": {
+		"ft": 16384,
+		"iS": 59479,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/insta-feed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/insta-feed@2x.jpg": {
+		"ft": 16384,
+		"iS": 153161,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/insta-feed@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/juvaderm-logo.png": {
+		"ft": 32768,
+		"iS": 3691,
+		"oA": 0,
+		"oAP": "/img/juvaderm-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/juvaderm-logo@2x.png": {
+		"ft": 32768,
+		"iS": 8701,
+		"oA": 0,
+		"oAP": "/img/juvaderm-logo@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/little_logo.png": {
 		"ft": 32768,
 		"iS": 1768,
@@ -533,6 +665,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/map1.jpg": {
+		"ft": 16384,
+		"iS": 5848,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/map1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/map1@2x.jpg": {
+		"ft": 16384,
+		"iS": 15182,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/map1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/map2.jpg": {
+		"ft": 16384,
+		"iS": 9268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/map2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/map2@2x.jpg": {
+		"ft": 16384,
+		"iS": 27497,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/map2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/plasticsurgery-bg.jpg": {
 		"ft": 16384,
 		"iS": 100302,
@@ -574,6 +750,50 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/radiesse-logo-1.png": {
+		"ft": 32768,
+		"iS": 3593,
+		"oA": 0,
+		"oAP": "/img/radiesse-logo-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/radiesse-logo-1@2x.png": {
+		"ft": 32768,
+		"iS": 8618,
+		"oA": 0,
+		"oAP": "/img/radiesse-logo-1@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/restylane-logo.png": {
+		"ft": 32768,
+		"iS": 5190,
+		"oA": 0,
+		"oAP": "/img/restylane-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/restylane-logo@2x.png": {
+		"ft": 32768,
+		"iS": 12262,
+		"oA": 0,
+		"oAP": "/img/restylane-logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -646,8 +866,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/slider-init.js",
-		"oF": 0,
+		"oAP": "/js/slider-init.min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},

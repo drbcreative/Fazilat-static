@@ -286,15 +286,174 @@
 /* -------------------------------------------------------------------------- */
 /* BIO */
 /* -------------------------------------------------------------------------- */
+.bio {
+  background: url("../../img/dr-bio-bg.jpg") center / cover;
+  position: relative;
+  padding: 40px 20px;
+  .containerish {
+    display: grid;
+    .dr-bio-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .bio-small-logo {
+        max-width: 40px;
+        height: auto;
+        margin-bottom: 2rem;
+      }
+      h2 {
+        margin-bottom: 2rem;
+      }
+      p {
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+    }
+    .dr-img {
+      margin-top: 2rem;
+    }
+  }
+  .lower-angle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 240px;
+    display: none;
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* ARTISTRY */
 /* -------------------------------------------------------------------------- */
+.artistry {
+  background: $color-dark;
+  padding: 40px 20px;
+  .containerish {
+    display: flex;
+    flex-direction: column;
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2,
+      .body-copy {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+    .artistry-img {
+      margin-top: 2rem;
+    }
+  }
+  .slider-container {
+    width: 100%;
+    height: auto;
+
+    img {
+      display: inline-block;
+      height: 60px;
+      width: auto !important;
+      margin: 0 2rem;
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* CONSULTATION*/
 /* -------------------------------------------------------------------------- */
+.consultation {
+  background: #eaeaea;
+  min-height: 300px;
+  padding: 40px 20px;
+
+  .containerish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2,
+    .body-copy {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .body-copy {
+      max-width: 944px;
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* INSTAGRAM */
 /* -------------------------------------------------------------------------- */
+.instagram {
+  .containerish {
+    max-width: 100%;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .ig-intro {
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        font-size: 59px;
+        color: $color-main;
+        margin-bottom: 2rem;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+    }
+    .ig-feed {
+      margin: 2rem 0;
+
+      img {
+        min-width: 100%;
+        height: auto;
+      }
+    }
+    .outro {
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* LOCATIONS */
 /* -------------------------------------------------------------------------- */
+.locations {
+  background: #f9f9f9;
+  padding: 40px 20px;
+  .containerish {
+    display: grid;
+
+    .location1,
+    .location2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .left {
+        padding: 0.5rem 2rem;
+      }
+    }
+  }
+}
