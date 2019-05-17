@@ -51,12 +51,8 @@
     min-height: 600px;
     .upper-section {
       .containerish {
-        // width: 100%;
-        // max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        .ui-col {
-        }
         .right-col {
           height: 400px;
           padding: 0 0 0 10px;
@@ -598,8 +594,6 @@
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        .ui-col {
-        }
         .left-col {
           position: relative;
           height: 350px;
