@@ -533,6 +533,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/footer-bg.jpg": {
+		"ft": 16384,
+		"iS": 20396,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/footer-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/footer-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 83382,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/footer-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/footer-logo.png": {
+		"ft": 32768,
+		"iS": 1046,
+		"oA": 0,
+		"oAP": "/img/footer-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/footer-logo@2x.png": {
+		"ft": 32768,
+		"iS": 2290,
+		"oA": 0,
+		"oAP": "/img/footer-logo@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/gallery-bg.jpg": {
 		"ft": 16384,
 		"iS": 20459,
@@ -618,6 +662,28 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/little_logo-grey.png": {
+		"ft": 32768,
+		"iS": 1059,
+		"oA": 0,
+		"oAP": "/img/little_logo-grey.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/little_logo-grey@2x.png": {
+		"ft": 32768,
+		"iS": 2293,
+		"oA": 0,
+		"oAP": "/img/little_logo-grey@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
