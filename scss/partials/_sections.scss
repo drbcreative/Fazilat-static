@@ -226,7 +226,6 @@
 }
 .body-2 {
   background: url("../../img/body-2-bg@2x.jpg") right / cover;
-  background-repeat: no-repeat;
   padding: 40px 20px;
   .containerish {
     display: grid;
@@ -261,6 +260,29 @@
 /* -------------------------------------------------------------------------- */
 /* GALLERY */
 /* -------------------------------------------------------------------------- */
+.gallery {
+  background: url("../../img/gallery-bg@2x.jpg") right / cover;
+  padding: 40px 20px;
+
+  .containerish {
+    min-height: 400px;
+    max-height: 485px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      margin-bottom: 2rem;
+    }
+
+    .body-copy {
+      text-align: center;
+      max-width: 977px;
+      margin: 0 auto;
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* BIO */
 /* -------------------------------------------------------------------------- */

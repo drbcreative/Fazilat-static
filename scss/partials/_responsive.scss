@@ -158,7 +158,7 @@
     background: url("../../img/body-2-bg@2x.jpg") center / cover;
     background-repeat: no-repeat;
     padding: 0px 20px;
-    height: 400px;
+    min-height: 400px;
     .containerish {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -174,7 +174,7 @@
       .body-content {
         background: #fff;
         padding: 2rem;
-        margin-top: -4rem;
+        margin-top: -8rem;
 
         h2 {
           margin-bottom: 2rem;
@@ -563,7 +563,7 @@
     background: url("../../img/body-2-bg@2x.jpg") center / cover;
     background-repeat: no-repeat;
     padding: 0px 20px;
-    height: 500px;
+    min-height: 525px;
     .containerish {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -580,7 +580,7 @@
         background: #fff;
         padding: 4rem 3rem;
         max-width: 472px;
-        margin-top: -8rem;
+        margin-top: -12rem;
         justify-self: center;
 
         h2 {
@@ -831,7 +831,7 @@
     background: url("../../img/body-2-bg@2x.jpg") center / cover;
     background-repeat: no-repeat;
     padding: 0px 20px;
-    height: 500px;
+    min-height: 500px;
     .containerish {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -839,7 +839,7 @@
 
       .body-img {
         margin-bottom: 0;
-        margin-top: -2rem;
+        margin-top: -3rem;
         margin-left: -2rem;
       }
 
@@ -868,6 +868,22 @@
     }
   }
   /* GALLERY SECTION ----------------------------------------------- */
+  .gallery {
+    background: url("../../img/gallery-bg@2x.jpg") right / cover;
+    padding: 40px 20px;
+
+    .containerish {
+      min-height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        margin-bottom: 2rem;
+      }
+    }
+  }
   /* BIO SECTION --------------------------------------------------- */
   /* ARTISTRY SECTION ---------------------------------------------- */
   /* CONSULTATION SECTION ------------------------------------------ */
@@ -1036,6 +1052,46 @@
     }
   }
   /* BODY SECTION -------------------------------------------------- */
+  .body-2 {
+    background: url("../../img/body-2-bg@2x.jpg") center / cover;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+    min-height: 550px;
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1rem;
+
+      .body-img {
+        margin-bottom: 0;
+        margin-top: -3rem;
+        margin-left: -2rem;
+      }
+
+      //white box
+      .body-content {
+        height: 665px;
+        background: #fff;
+        padding: 4rem 3rem;
+        max-width: 472px;
+        margin-top: -14rem;
+        justify-self: center;
+
+        h2 {
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .btn-main-main-left {
+          color: $color-dark;
+
+          &:hover {
+            color: $color-main;
+          }
+        }
+      }
+    }
+  }
   /* GALLERY SECTION ----------------------------------------------- */
   /* BIO SECTION --------------------------------------------------- */
   /* ARTISTRY SECTION ---------------------------------------------- */
