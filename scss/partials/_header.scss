@@ -14,6 +14,10 @@
   grid-column: 3 / 4;
   cursor: pointer;
 
+  &.show {
+    background: $color-white;
+  }
+
   .nav-burger {
     width: 45px;
     height: auto;
