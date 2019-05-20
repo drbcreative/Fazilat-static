@@ -5,7 +5,7 @@ footer {
   .footer1 {
     min-height: 300px;
     padding: 40px 20px;
-    background: url("../../img/footer-bg@2x.jpg") center / cover;
+    background: url("../img/footer-bg@2x.jpg") center / cover;
 
     .containerish {
       display: flex;
@@ -36,6 +36,7 @@ footer {
         margin-bottom: 2rem;
         .small-copy {
           text-align: center;
+          line-height: 3rem;
 
           a {
             color: $color-dark;

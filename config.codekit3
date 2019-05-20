@@ -775,6 +775,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/menu-bg.jpg": {
+		"ft": 16384,
+		"iS": 41209,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/menu-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/menu-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 135276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/menu-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/plasticsurgery-bg.jpg": {
 		"ft": 16384,
 		"iS": 100302,

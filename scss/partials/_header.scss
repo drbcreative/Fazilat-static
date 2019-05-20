@@ -223,7 +223,7 @@ header {
   }
   .menu-right {
     .side-menu {
-      min-height: 70%;
+      min-height: 60%;
       width: 100%;
       list-style-type: none;
       margin-top: 0;
@@ -244,7 +244,7 @@ header {
           color: $color-dark;
           display: block;
           width: 100%;
-          padding: 0.5rem 2rem;
+          padding: 0.2rem 2rem;
           transition: all 0.5s ease-in-out;
 
           &:hover {
@@ -275,6 +275,7 @@ header {
 
         li {
           display: block;
+          margin-bottom: 2rem;
           // width: 100%;
           a {
             padding-left: 3rem;
@@ -299,6 +300,7 @@ header {
       .social-menu {
         width: 100%;
         display: flex;
+        margin-top: 2rem;
         a {
           margin-left: 0.5rem;
         }
@@ -315,5 +317,31 @@ header {
         display: block;
       }
     }
+  }
+  .menu-links-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+
+    .menu-link {
+      font-family: $font-secondary;
+      font-size: 12px;
+      font-weight: 300;
+      color: $color-dark;
+      display: inline-block;
+      margin-right: 1rem;
+    }
+    .menu-link:nth-child(2) {
+      margin-right: 0;
+    }
+  }
+  .menu-link {
+    font-family: $font-secondary;
+    font-size: 12px;
+    font-weight: 300;
+    color: $color-dark;
+    display: inline-block;
+    margin-right: 1rem;
   }
 }
